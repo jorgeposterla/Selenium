@@ -1,0 +1,202 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 18,
+        "name": "As a Test Engineer I want to validate that a text is present inside a list.",
+        "description": "",
+        "id": "test-different-actions-on-a-sandbox-page;as-a-test-engineer-i-want-to-validate-that-a-text-is-present-inside-a-list.;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2619688100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I navigate to the list",
+            "match": {
+              "location": "ListSteps.navigateToListPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1002920600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I search Washington in the list",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Washington",
+                  "offset": 9
+                }
+              ],
+              "location": "ListSteps.searchTheList(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 557604600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I can find Seattle, Washington in the list",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Seattle, Washington",
+                  "offset": 11
+                }
+              ],
+              "location": "ListSteps.theTableIsThere(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test"
+          }
+        ]
+      },
+      {
+        "line": 19,
+        "name": "As a Test Engineer I want to validate that a text is present inside a list.",
+        "description": "",
+        "id": "test-different-actions-on-a-sandbox-page;as-a-test-engineer-i-want-to-validate-that-a-text-is-present-inside-a-list.;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 101637700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I navigate to the list",
+            "match": {
+              "location": "ListSteps.navigateToListPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 935968200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I search Washington in the list",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Washington",
+                  "offset": 9
+                }
+              ],
+              "location": "ListSteps.searchTheList(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 490892200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I can find Tacoma, Washington in the list",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Tacoma, Washington",
+                  "offset": 11
+                }
+              ],
+              "location": "ListSteps.theTableIsThere(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test"
+          }
+        ]
+      },
+      {
+        "line": 20,
+        "name": "As a Test Engineer I want to validate that a text is present inside a list.",
+        "description": "",
+        "id": "test-different-actions-on-a-sandbox-page;as-a-test-engineer-i-want-to-validate-that-a-text-is-present-inside-a-list.;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 111104000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I navigate to the list",
+            "match": {
+              "location": "ListSteps.navigateToListPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 948751400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I search Chicago in the list",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Chicago",
+                  "offset": 9
+                }
+              ],
+              "location": "ListSteps.searchTheList(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 32713700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I can find Chicago, Illinois in the list",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Chicago, Illinois",
+                  "offset": 11
+                }
+              ],
+              "location": "ListSteps.theTableIsThere(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test"
+          }
+        ]
+      }
+    ],
+    "name": "Test different actions on a sandbox page",
+    "description": "",
+    "id": "test-different-actions-on-a-sandbox-page",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/Sandbox.feature",
+    "tags": []
+  }
+]
