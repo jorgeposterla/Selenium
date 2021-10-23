@@ -16,5 +16,5 @@ Scenario Outline: As a Test Engineer I want to validate that a text is present i
     Examples:
         | state       | city                |
         | Washington  | Seattle, Washington |
-        | Washington  | Tacoma, Washington  |
+        | Washington  | Mendoza, Washington  |
         | Chicago     | Chicago, Illinois   |
